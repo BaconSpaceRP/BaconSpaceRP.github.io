@@ -1,0 +1,67 @@
+[
+  {
+    "title": "Police Officer",
+    "department": "Los Santos Police Department",
+    "badgeColor": "primary"
+  },
+  {
+    "title": "Paleto Bay Police",
+    "department": "Paleto Bay Police Department",
+    "badgeColor": "primary"
+  },
+  {
+    "title": "Blaine County Police Officer",
+    "department": "Blaine County Police Department",
+    "badgeColor": "primary"
+  },
+  {
+    "title": "SASP Officer",
+    "department": "San Andreas State Police",
+    "badgeColor": "primary"
+  },
+  {
+    "title": "SWAT Team",
+    "department": "Special Weapons and Tactics",
+    "badgeColor": "danger"
+  },
+  {
+    "title": "EMS Paramedic",
+    "department": "San Andreas Emergency Medical Services",
+    "badgeColor": "danger"
+  },
+  {
+    "title": "Taxi Driver",
+    "department": "Los Santos Taxi Company",
+    "badgeColor": "warning"
+  },
+  {
+    "title": "Firefighter",
+    "department": "Los Santos Fire Department",
+    "badgeColor": "danger"
+  },
+  {
+    "title": "News Reporter",
+    "department": "Los Santos News Network",
+    "badgeColor": "success"
+  },
+  {
+    "title": "Mechanic",
+    "department": "Los Santos Customs",
+    "badgeColor": "secondary"
+  },
+  {
+    "title": "Judge",
+    "department": "Los Santos Judiciary",
+    "badgeColor": "dark"
+  },
+  {
+    "title": "Lawyer",
+    "department": "Los Santos Legal Services",
+    "badgeColor": "dark"
+  },
+  {
+    "title": "Mafia",
+    "department": "Los Santos Mafia",
+    "badgeColor": "dark"
+  }
+]
