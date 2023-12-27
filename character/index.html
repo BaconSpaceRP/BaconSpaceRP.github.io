@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://baconspacerp.github.io/bootstrap.min.css">
+    <title>BSRP - Character Creator</title>
+    <style>
+        /* Add your custom styles here */
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="https://baconspacerp.github.io/index.html">BSRP 
+          </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://baconspacerp.github.io/about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://baconspacerp.github.io/jobs/index.html">Jobs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://baconspacerp.github.io/character/index.html">Character</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mt-5">
+        <h1 class="text-center mb-4">BSRP - Character Creator</h1>
+
+        <!-- Character creation form -->
+        <form id="characterForm">
+            <!-- Badge for Character Name -->
+            <div class="mb-3">
+                <label for="characterName" class="form-label">Character Name:</label>
+                <input type="text" class="form-control" id="characterName" required>
+                <span class="badge bg-primary">New</span>
+            </div>
+
+            <!-- Character features designer -->
+            <h2 class="mt-3">Character Designer</h2>
+
+            <!-- Select gender -->
+            <div class="mb-3">
+                <label for="gender" class="form-label">Gender:</label>
+                <select class="form-select" id="gender" required>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                </select>
+            </div>
+
+            <!-- Select age -->
+            <div class="mb-3">
+                <label for="age" class="form-label">Age:</label>
+                <input type="number" class="form-control" id="age" min="1" required>
+            </div>
+
+            <!-- Select hairstyle -->
+            <div class="mb-3">
+                <label for="hairstyle" class="form-label">Hairstyle:</label>
+                <select class="form-select" id="hairstyle" required>
+                    <option value="short">Short</option>
+                    <option value="long">Long</option>
+                </select>
+            </div>
+
+            <!-- Select clothing -->
+            <div class="mb-3">
+                <label for="clothing" class="form-label">Clothing:</label>
+                <select class="form-select" id="clothing" required>
+                    <option value="casual">Casual</option>
+                    <option value="formal">Formal</option>
+                </select>
+            </div>
+
+            <!-- Add more form fields as needed -->
+
+            <!-- Submit button -->
+            <button type="submit" class="btn btn-primary">Create Character</button>
+        </form>
+
+        <!-- Display created character details -->
+        <div id="characterDetails" class="mt-4"></div>
+
+        <!-- Placeholder script -->
+        <script>
+            // This is a placeholder script. Replace it with your actual logic from "gta.js" if needed.
+            document.getElementById('characterForm').addEventListener('submit', function (event) {
+                event.preventDefault();
+                // Add your character creation logic here
+                alert('Character created successfully!');
+            });
+        </script>
+
+  <!-- Bootstrap JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    </div>
+
+</body>
+
+</html>
