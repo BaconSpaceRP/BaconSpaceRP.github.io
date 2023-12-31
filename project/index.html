@@ -28,7 +28,7 @@
             <a class="nav-link" href="https://baconspacerp.github.io/jobs/index.html">Jobs</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="https://baconspacerp.github.io/projects/index.html">Projects</a>
+            <a class="nav-link" href="https://baconspacerp.github.io/project/index.html">Projects</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="https://baconspacerp.github.io/character/index.html">Character</a>
@@ -115,7 +115,8 @@
             // Format and set the created_at timestamp using Moment.js
             const createdTimestamp = moment(repo.created_at).fromNow();
             const createdAtElement = card.querySelector(`#repo-created-at-${repo.id}`);
-            createdAtElement.textContent = createdTimestamp;
+            createdAtElement.textContent = `Created ${createdTimestamp}`;
+
 
             // Append the card to the container
             repoCards.appendChild(card);
